@@ -1,12 +1,16 @@
 import { useState } from 'react'
 import './App.css'
 import UseEffect from './components/UseEffect'
+import DataFetch from './components/DataFetch'
 
 function App() {
 
   return (
     <>
-    <UseEffect />
+    <div>
+      <UseEffect />
+      <DataFetch />
+    </div>
     </>
   )
 }
